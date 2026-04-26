@@ -3,6 +3,10 @@ site_description: Sistema di distribuzione carte via IR con ATtiny85
 
 theme:
   name: material
+  palette:
+    - scheme: slate
+      primary: black
+      accent: blue
 
 markdown_extensions:
   - admonition
