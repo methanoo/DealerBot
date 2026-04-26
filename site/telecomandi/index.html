@@ -29,6 +29,9 @@
     
       <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
       
 
 
@@ -55,7 +58,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="blue">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -64,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#architettura-hardware" class="md-skip">
+        <a href="#architettura-del-sistema" class="md-skip">
           Skip to content
         </a>
       
@@ -106,6 +116,18 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="blue"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -168,6 +190,8 @@
         <div class="md-main__inner md-grid">
           
             
+              
+                
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
@@ -279,10 +303,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#architettura-hardware" class="md-nav__link">
+  <a href="#architettura-del-sistema" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Architettura Hardware
+        Architettura del Sistema
       
     </span>
   </a>
@@ -290,10 +314,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mappatura-segnali-protocollo-nec" class="md-nav__link">
+  <a href="#logica-di-funzionamento" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Mappatura Segnali (Protocollo NEC)
+        Logica di Funzionamento
       
     </span>
   </a>
@@ -309,44 +333,16 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Firmware e Programmazione">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-setup-arduino-come-programmatore" class="md-nav__link">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabella-assegnazione-codici" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. Setup Arduino come Programmatore
+        Tabella Assegnazione Codici
       
     </span>
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-collegamenti-attiny85" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Collegamenti ATtiny85
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-impostazioni-ide-e-bootloader" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Impostazioni IDE e Bootloader
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -366,7 +362,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -383,10 +381,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#architettura-hardware" class="md-nav__link">
+  <a href="#architettura-del-sistema" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Architettura Hardware
+        Architettura del Sistema
       
     </span>
   </a>
@@ -394,10 +392,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mappatura-segnali-protocollo-nec" class="md-nav__link">
+  <a href="#logica-di-funzionamento" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Mappatura Segnali (Protocollo NEC)
+        Logica di Funzionamento
       
     </span>
   </a>
@@ -413,44 +411,16 @@
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Firmware e Programmazione">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-setup-arduino-come-programmatore" class="md-nav__link">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tabella-assegnazione-codici" class="md-nav__link">
     <span class="md-ellipsis">
       
-        1. Setup Arduino come Programmatore
+        Tabella Assegnazione Codici
       
     </span>
   </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-collegamenti-attiny85" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        2. Collegamenti ATtiny85
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-impostazioni-ide-e-bootloader" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        3. Impostazioni IDE e Bootloader
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -468,201 +438,671 @@
               <article class="md-content__inner md-typeset">
                 
                   
+  
 
 
 
-  <h1>Telecomandi</h1>
 
-<p>&nbsp;</p>
-<div align="center">
+<style>
+/* ── PAGE HEADER ────────────────────────────────────────── */
+.page-header {
+  position: relative;
+  overflow: hidden;
+  border-radius: 14px;
+  padding: 3.5rem 2rem 3rem;
+  margin: 1.5rem 0 3rem;
+  background:
+    radial-gradient(ellipse at 10% 60%, rgba(0,200,255,0.10) 0%, transparent 55%),
+    radial-gradient(ellipse at 90% 20%, rgba(124,58,237,0.12) 0%, transparent 55%),
+    linear-gradient(135deg, #0d1117 0%, #161b22 100%);
+  border: 1px solid rgba(255,255,255,0.07);
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.04), 0 20px 60px rgba(0,0,0,0.4);
+}
 
-# DealerBot: Documentazione Telecomandi
-    Sistema di distribuzione carte automatizzato via segnale Infrarosso (NEC).
+.page-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(0,200,255,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,200,255,0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.page-header-inner { position: relative; z-index: 1; }
+
+.page-header-breadcrumb {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(0,200,255,0.7);
+  margin-bottom: 0.8rem;
+}
+
+.page-header h1 {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  margin: 0 0 0.8rem;
+  background: linear-gradient(135deg, #ffffff 0%, #a0d8ef 60%, #7c3aed 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.page-header p {
+  color: rgba(255,255,255,0.45);
+  font-size: 1rem;
+  margin: 0 0 1.5rem;
+  max-width: 500px;
+}
+
+.header-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+
+.htag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 6px;
+  padding: 0.3rem 0.75rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: rgba(255,255,255,0.55);
+}
+
+.htag.cyan {
+  background: rgba(0,200,255,0.08);
+  border-color: rgba(0,200,255,0.25);
+  color: #00c8ff;
+}
+
+/* ── INFO BANNER ────────────────────────────────────────── */
+.info-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  background: rgba(0,200,255,0.06);
+  border: 1px solid rgba(0,200,255,0.2);
+  border-left: 3px solid #00c8ff;
+  border-radius: 10px;
+  padding: 1.1rem 1.4rem;
+  margin: 2rem 0;
+}
+
+.info-banner .ib-icon { font-size: 1.3rem; flex-shrink: 0; margin-top: 1px; }
+.info-banner .ib-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #00c8ff;
+  margin-bottom: 0.25rem;
+}
+.info-banner .ib-body {
+  font-size: 0.875rem;
+  color: rgba(255,255,255,0.55);
+  line-height: 1.6;
+  margin: 0;
+}
+.info-banner .ib-body strong { color: rgba(255,255,255,0.85); }
+
+/* ── FLOW BOX ───────────────────────────────────────────── */
+.flow-box {
+  background: rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: 12px;
+  padding: 1.8rem 2rem;
+  margin: 2rem 0;
+}
+
+.flow-box h4 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.3);
+  margin: 0 0 1.2rem;
+}
+
+.flow-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  list-style: none;
+  padding: 0; margin: 0;
+}
+
+.flow-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+}
+
+.flow-list li:last-child { border-bottom: none; }
+
+.flow-num {
+  width: 28px; height: 28px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, rgba(0,200,255,0.2), rgba(124,58,237,0.2));
+  border: 1px solid rgba(0,200,255,0.25);
+  color: #00c8ff;
+  font-size: 0.78rem;
+  font-weight: 800;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+
+.flow-text {
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.6);
+  line-height: 1.5;
+  padding-top: 3px;
+}
+
+.flow-text strong { color: rgba(255,255,255,0.9); }
+
+/* ── SECTION DIVIDER ────────────────────────────────────── */
+.sec-divider {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2.5rem 0 1.5rem;
+}
+
+.sec-divider::before, .sec-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: rgba(255,255,255,0.07);
+}
+
+.sec-divider-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.25);
+  white-space: nowrap;
+}
+
+/* ── CONNECTION TABLE ───────────────────────────────────── */
+.conn-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.07);
+  margin: 1.2rem 0;
+  font-size: 0.875rem;
+}
+
+.conn-table thead tr { background: rgba(255,255,255,0.04); }
+
+.conn-table th {
+  padding: 0.7rem 1.1rem;
+  text-align: left;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.conn-table td {
+  padding: 0.7rem 1.1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  color: rgba(255,255,255,0.6);
+}
+
+.conn-table tr:last-child td { border-bottom: none; }
+.conn-table tr:hover td { background: rgba(255,255,255,0.02); }
+
+.conn-table code {
+  background: rgba(0,200,255,0.1);
+  border: 1px solid rgba(0,200,255,0.2);
+  color: #00c8ff;
+  padding: 0.15rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.82rem;
+}
+
+/* ── WARNING / TIP BANNERS ──────────────────────────────── */
+.wb {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.9rem;
+  border-radius: 10px;
+  padding: 1rem 1.3rem;
+  margin: 1.2rem 0;
+  font-size: 0.875rem;
+}
+
+.wb.warn   { background: rgba(255,170,0,0.07);  border: 1px solid rgba(255,170,0,0.2);  border-left: 3px solid #ffaa00; }
+.wb.tip    { background: rgba(0,200,100,0.07);  border: 1px solid rgba(0,200,100,0.2);  border-left: 3px solid #00c864; }
+.wb.danger { background: rgba(255,60,60,0.07);  border: 1px solid rgba(255,60,60,0.2);  border-left: 3px solid #ff3c3c; }
+.wb.note   { background: rgba(124,58,237,0.07); border: 1px solid rgba(124,58,237,0.2); border-left: 3px solid #7c3aed; }
+
+.wb-icon { font-size: 1.1rem; flex-shrink: 0; margin-top: 1px; }
+
+.wb-inner .wb-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
+}
+
+.wb.warn   .wb-title { color: #ffaa00; }
+.wb.tip    .wb-title { color: #00c864; }
+.wb.danger .wb-title { color: #ff3c3c; }
+.wb.note   .wb-title { color: #a78bfa; }
+
+.wb-inner p {
+  color: rgba(255,255,255,0.55);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.wb-inner p strong { color: rgba(255,255,255,0.85); }
+
+/* ── PINOUT BOX ─────────────────────────────────────────── */
+.pinout-box {
+  background: #0d1117;
+  border: 1px solid rgba(0,200,255,0.15);
+  border-radius: 10px;
+  padding: 1.4rem 1.6rem;
+  margin: 1.2rem 0;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.82rem;
+  line-height: 1.9;
+  color: rgba(255,255,255,0.6);
+  overflow-x: auto;
+  white-space: pre;
+}
+
+/* ── IDE TABLE ──────────────────────────────────────────── */
+.ide-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 4px;
+  margin: 1.2rem 0;
+  font-size: 0.875rem;
+}
+
+.ide-table td { padding: 0.6rem 1rem; color: rgba(255,255,255,0.6); }
+
+.ide-table td:first-child {
+  background: rgba(255,255,255,0.03);
+  border-radius: 6px 0 0 6px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.35);
+  font-size: 0.78rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  width: 140px;
+}
+
+.ide-table td:last-child {
+  background: rgba(255,255,255,0.03);
+  border-radius: 0 6px 6px 0;
+}
+
+.ide-table code {
+  background: rgba(0,200,255,0.1);
+  border: 1px solid rgba(0,200,255,0.2);
+  color: #00c8ff;
+  padding: 0.15rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.82rem;
+}
+
+/* ── ASSIGN TABLE ───────────────────────────────────────── */
+.assign-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.07);
+  font-size: 0.875rem;
+}
+
+.assign-table thead tr { background: rgba(255,255,255,0.04); }
+
+.assign-table th {
+  padding: 0.75rem 1.2rem;
+  text-align: left;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+}
+
+.assign-table td {
+  padding: 0.8rem 1.2rem;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  color: rgba(255,255,255,0.6);
+}
+
+.assign-table tr:last-child td { border-bottom: none; }
+.assign-table tr:hover td { background: rgba(255,255,255,0.02); }
+.assign-table .pname { font-weight: 700; color: rgba(255,255,255,0.85); }
+
+.assign-table code {
+  background: rgba(124,58,237,0.12);
+  border: 1px solid rgba(124,58,237,0.25);
+  color: #a78bfa;
+  padding: 0.15rem 0.5rem;
+  border-radius: 5px;
+  font-size: 0.82rem;
+}
+
+.hex-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, rgba(0,200,255,0.15), rgba(124,58,237,0.15));
+  border: 1px solid rgba(0,200,255,0.25);
+  color: #00c8ff;
+  border-radius: 6px;
+  padding: 0.15rem 0.6rem;
+  font-family: monospace;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.add-row td { color: rgba(255,255,255,0.2) !important; font-style: italic; }
+
+/* ── OUTPUT BOX ─────────────────────────────────────────── */
+.output-box {
+  background: #0a0d11;
+  border: 1px solid rgba(0,200,100,0.2);
+  border-left: 3px solid #00c864;
+  border-radius: 10px;
+  padding: 1.2rem 1.5rem;
+  margin: 1rem 0;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-size: 0.82rem;
+  line-height: 1.9;
+}
+
+.output-box .out-header {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #00c864;
+  margin-bottom: 0.6rem;
+}
+
+.out-line { color: rgba(255,255,255,0.45); }
+.out-ok   { color: #00c864; }
+.out-val  { color: #00c8ff; }
+</style>
+
+<!-- ╔══════════════════════════════════════╗ -->
+<!-- ║           PAGE HEADER               ║ -->
+<!-- ╚══════════════════════════════════════╝ -->
+
+<div class="page-header">
+  <div class="page-header-inner">
+    <div class="page-header-breadcrumb">DealerBot → Hardware</div>
+    <h1>Telecomandi</h1>
+    <p>Sistema di controllo infrarossi — Protocollo NEC su ATtiny85</p>
+    <div class="header-tags">
+      <span class="htag cyan">NEC 38kHz</span>
+      <span class="htag cyan">ATtiny85</span>
+      <span class="htag">Arduino ISP</span>
+      <span class="htag">IRremote v4.x</span>
+      <span class="htag">C++ / Arduino</span>
+    </div>
+  </div>
 </div>
-<p>&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;</p>
-<h2 id="architettura-hardware">Architettura Hardware</h2>
-<div align="center">
-<img src="https://i.imgur.com/kS9Gw3v.png" width="450" alt="Schema Circuitale">
-<p style="font-size: 0.9em; color: gray; margin-top: 10px;">
-<i>Configurazione pinout: ATtiny85 collegato a un LED IR da 940nm e pulsante (Alimentazione 3V).</i>
-</p>
+
+<div class="info-banner">
+  <div class="ib-icon">!</div>
+  <div>
+    <div class="ib-title">Panoramica del Sistema</div>
+    <p class="ib-body">Il sistema <strong>DealerBot</strong> utilizza telecomandi IR <i>(protocollo NEC)</i> per identificare ogni giocatore e attivare la distribuzione automatica delle carte.</p>
+  </div>
 </div>
-<p>&nbsp;</p>
-<div class="admonition abstract">
-<p class="admonition-title">Logica di Funzionamento</p>
-<p>Ogni giocatore possiede un telecomando a tasto singolo. Premendo il pulsante, l'ATtiny85 invia un comando specifico che il mazziere centrale riconosce per distribuire la carta al giocatore corrispondente.</p>
+
+<hr />
+<h2 id="architettura-del-sistema">Architettura del Sistema</h2>
+<p><img alt="Schema telecomando" src="../schema_telecomando.png" /></p>
+<div class="sec-divider"><span class="sec-divider-label">Pinout ATtiny85</span></div>
+<div class="pinout-box"><span style="color:rgba(255,255,255,0.3)">                                                    
+           ┌──────┐</span>
+<span style="color:#888">PB5 (RST)</span> ─┤1    8├─ <span style="color:#ff9f43">VCC  (5V/3.3V)</span>
+<span style="color:#555">PB3      </span> ─┤2    7├─ <span style="color:#888">PB2  (SCK)</span>
+<span style="color:#555">PB4      </span> ─┤3    6├─ <span style="color:#00c8ff">PB1  ← LED IR   (Pin 1)</span>
+<span style="color:#888">GND      </span> ─┤4    5├─ <span style="color:#a78bfa">PB0  ← BUTTON   (Pin 2)</span> <span style="color:rgba(255,255,255,0.3)">
+           └──────┘</span></div>
+
+<hr />
+<h2 id="logica-di-funzionamento">Logica di Funzionamento</h2>
+<div class="flow-box">
+  <h4>Flusso Operativo</h4>
+  <ul class="flow-list">
+    <li>
+      <div class="flow-num">1</div>
+      <div class="flow-text">Il giocatore preme il <strong>pulsante</strong> sul telecomando</div>
+    </li>
+    <li>
+      <div class="flow-num">2</div>
+      <div class="flow-text">L'<strong>ATtiny85</strong> invia un codice IR univoco via LED IR</div>
+    </li>
+    <li>
+      <div class="flow-num">3</div>
+      <div class="flow-text">Il <strong>ricevitore centrale</strong> decodifica il segnale NEC</div>
+    </li>
+    <li>
+      <div class="flow-num">4</div>
+      <div class="flow-text">Viene assegnata la <strong>carta corrispondente</strong> al giocatore</div>
+    </li>
+  </ul>
 </div>
-<p><br></p>
-<h2 id="mappatura-segnali-protocollo-nec">Mappatura Segnali (Protocollo NEC)</h2>
-<table>
-<thead>
-<tr>
-<th style="text-align: center;">ID Giocatore</th>
-<th style="text-align: center;">Chiamata Funzione</th>
-<th style="text-align: center;">Valore HEX (Raw)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;">👤 <strong>01</strong></td>
-<td style="text-align: center;"><code>sendNEC(1, 0x0, 0xC, 0);</code></td>
-<td style="text-align: center;"><code>F30CFF00</code></td>
-</tr>
-<tr>
-<td style="text-align: center;">👤 <strong>02</strong></td>
-<td style="text-align: center;"><code>sendNEC(1, 0x0, 0x18, 0);</code></td>
-<td style="text-align: center;"><code>E718FF00</code></td>
-</tr>
-<tr>
-<td style="text-align: center;">👤 <strong>03</strong></td>
-<td style="text-align: center;"><code>sendNEC(1, 0x0, 0x5E, 0);</code></td>
-<td style="text-align: center;"><code>A15EFF00</code></td>
-</tr>
-<tr>
-<td style="text-align: center;">👤 <strong>04</strong></td>
-<td style="text-align: center;"><code>sendNEC(1, 0x0, 0x8, 0);</code></td>
-<td style="text-align: center;"><code>F708FF00</code></td>
-</tr>
-<tr>
-<td style="text-align: center;">👤 <strong>05</strong></td>
-<td style="text-align: center;"><code>sendNEC(1, 0x0, 0x1C, 0);</code></td>
-<td style="text-align: center;"><code>E31CFF00</code></td>
-</tr>
-<tr>
-<td style="text-align: center;">👤 <strong>06</strong></td>
-<td style="text-align: center;"><code>sendNEC(1, 0x0, 0x5A, 0);</code></td>
-<td style="text-align: center;"><code>A55AFF00</code></td>
-</tr>
-<tr>
-<td style="text-align: center;">👤 <strong>07</strong></td>
-<td style="text-align: center;"><code>sendNEC(1, 0x0, 0x42, 0);</code></td>
-<td style="text-align: center;"><code>BD42FF00</code></td>
-</tr>
-</tbody>
-</table>
-<p>&nbsp;</p>
+
+<hr />
 <h2 id="firmware-e-programmazione">Firmware e Programmazione</h2>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Arduino ISP (Programmazione)</label><label for="__tabbed_1_2">Trasmettitore (ATtiny85)</label><label for="__tabbed_1_3">Debugger (Ricevitore)</label></div>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Arduino ISP</label><label for="__tabbed_1_2">Trasmettitore (ATtiny85)</label><label for="__tabbed_1_3">Debugger (Ricevitore)</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<h4 id="1-setup-arduino-come-programmatore">1. Setup Arduino come Programmatore</h4>
+<p><div class="sec-divider"><span class="sec-divider-label">Setup programmatore</span></div></p>
+<p><strong>Step 1 — Prepara l'Arduino UNO come programmatore:</strong></p>
 <ul>
-<li>Collega <strong>SOLAMENTE</strong> l'Arduino Uno al PC.</li>
-<li>Vai su <code>File</code> &gt; <code>Esempi</code> &gt; <code>11.ArduinoISP</code> &gt; <code>ArduinoISP</code>.</li>
-<li>Carica lo sketch sull'Arduino Uno.</li>
+<li>Collega <strong>Arduino UNO</strong> al PC via USB</li>
+<li>Carica lo sketch <strong>ArduinoISP</strong> <em>(File → Esempi → ArduinoISP)</em></li>
+<li>Vai in <em>Strumenti → Programmatore</em> → seleziona <strong>Arduino as ISP</strong></li>
 </ul>
-<h4 id="2-collegamenti-attiny85">2. Collegamenti ATtiny85</h4>
-<p>Ora puoi collegare l'Arduino UNO all'ATtiny85, i collegamenti sono i seguenti:
-| Arduino Uno (Master) | ATtiny85 (Target) | Pin Fisico ATtiny |
-| :--- | :--- | :---: |
-| <strong>5V</strong> | VCC | 8 |
-| <strong>GND</strong> | GND | 4 |
-| <strong>Pin 10</strong> | Reset | 1 |
-| <strong>Pin 11</strong> | MOSI | 5 |
-| <strong>Pin 12</strong> | MISO | 6 |
-| <strong>Pin 13</strong> | SCK | 7 |</p>
-<h4 id="3-impostazioni-ide-e-bootloader">3. Impostazioni IDE e Bootloader</h4>
-<ul>
-<li><strong>Scheda:</strong> <code>ATtiny25/45/85</code></li>
-<li><strong>Processor:</strong> <code>ATtiny85</code></li>
-<li><strong>Clock:</strong> <code>Internal 1 MHz</code> (Ottimale per batteria 3V)</li>
-<li><strong>Programmer:</strong> <code>Arduino as ISP</code>
-<br><br></li>
-</ul>
-<div class="admonition info">
-<p class="admonition-title">Arrivati a questo punto si può passare alla prossima scheda: Trasmettitore (ATtiny85)</p>
-</div>
+<p><div class="sec-divider"><span class="sec-divider-label">Schema di collegamento Arduino UNO ↔ ATtiny85</span></div></p>
+<p><table class="conn-table">
+  <thead><tr><th>Arduino UNO</th><th>ATtiny85</th><th>Descrizione</th></tr></thead>
+  <tbody>
+    <tr><td><code>5V</code></td><td><code>VCC</code></td><td>Alimentazione</td></tr>
+    <tr><td><code>GND</code></td><td><code>GND</code></td><td>Massa</td></tr>
+    <tr><td><code>Pin 10</code></td><td><code>RESET</code></td><td>Reset programmatore</td></tr>
+    <tr><td><code>Pin 11</code></td><td><code>MOSI</code></td><td>Dati verso chip</td></tr>
+    <tr><td><code>Pin 12</code></td><td><code>MISO</code></td><td>Dati dal chip</td></tr>
+    <tr><td><code>Pin 13</code></td><td><code>SCK</code></td><td>Clock SPI</td></tr>
+  </tbody>
+</table></p>
+<p><div class="wb warn">
+  <div class="wb-icon">⚠️</div>
+  <div class="wb-inner">
+    <div class="wb-title">Condensatore anti-reset</div>
+    <p>Aggiungi un <strong>condensatore da 10µF</strong> tra <code>RESET</code> e <code>GND</code> di Arduino UNO per evitare il reset automatico durante la programmazione.</p>
+  </div>
+</div></p>
+<p><div class="sec-divider"><span class="sec-divider-label">Configurazione IDE</span></div></p>
+<p>Vai in <em>Strumenti</em> e configura i seguenti parametri:</p>
+<p><table class="ide-table">
+  <tr><td>Scheda</td><td><code>ATtiny85</code></td></tr>
+  <tr><td>Clock</td><td><code>Internal 8 MHz</code></td></tr>
+  <tr><td>Programmer</td><td><code>Arduino as ISP</code></td></tr>
+</table></p>
+<p><div class="wb tip">
+  <div class="wb-icon">!</div>
+  <div class="wb-inner">
+    <div class="wb-title">Importante</div>
+    <p>Clicca su <strong><em>Strumenti → Burn Bootloader</strong></em> per impostare i fuses,
+e infine <em><strong>Sketch → Carica con Programmatore</em></strong>.</p>
+  </div>
+</div></p>
+<p>Ora puoi passare alla prossima scheda: <strong><em>Trasmettitore (ATtiny85)</em></strong></p>
 </div>
 <div class="tabbed-block">
-<div class="admonition warning">
-<p class="admonition-title">Personalizzazione Obbligatoria</p>
-<p>Modifica la <strong>linea 14</strong> inserendo il codice assegnato al giocatore specifico preso dalla tabella sopra.</p>
-</div>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;Arduino.h&gt;</span>
+<p><div class="sec-divider"><span class="sec-divider-label">Funzione</span></div></p>
+<p>Invia segnali IR per identificare univocamente il giocatore che preme il tasto.</p>
+<p><div class="wb warn">
+  <div class="wb-icon">⚠️</div>
+  <div class="wb-inner">
+    <div class="wb-title">Attenzione — Codici Univoci</div>
+    <p>Ogni telecomando <strong>deve</strong> avere un codice <code>HEX</code> diverso nel parametro <code>command</code>. Usa la tabella di assegnazione per assegnare correttamente i codici.</p>
+  </div>
+</div></p>
+<p><div class="sec-divider"><span class="sec-divider-label">Codice sorgente</span></div></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;Arduino.h&gt;</span>
 <span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;TinyIRSender.hpp&gt;</span>
 
-<span class="cp">#define IR_PIN 1      </span><span class="c1">// (1)</span>
-<span class="cp">#define BUTTON_PIN 2  </span><span class="c1">// (2)</span>
+<span class="cp">#define IR_PIN      1   </span><span class="c1">// PB1 — LED IR (con resistenza da 100Ω)</span>
+<span class="cp">#define BUTTON_PIN  2   </span><span class="c1">// PB2 — Pulsante (INPUT_PULLUP)</span>
+
+<span class="c1">// ┌───────────────────────────────────────┐</span>
+<span class="c1">// │  TABELLA ASSEGNAZIONE GIOCATORI       │</span>
+<span class="c1">// │                                       │</span>
+<span class="c1">// │  Giocatore 1 → 0x0C                   │</span>
+<span class="c1">// │  Giocatore 2 → 0x18                   │</span>
+<span class="c1">// │  Giocatore 3 → 0x5E                   │</span>
+<span class="c1">// │  Giocatore 4 → 0x08                   │</span>
+<span class="c1">// │  Giocatore 5 → 0x1C                   │</span>
+<span class="c1">// │  Giocatore 6 → 0x5A                   │</span>
+<span class="c1">// │  Giocatore 7 → 0x42                   │</span>
+<span class="c1">// └───────────────────────────────────────┘</span>
 
 <span class="kt">void</span><span class="w"> </span><span class="nf">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="n">pinMode</span><span class="p">(</span><span class="n">BUTTON_PIN</span><span class="p">,</span><span class="w"> </span><span class="n">INPUT_PULLUP</span><span class="p">);</span><span class="w"> </span>
+<span class="w">    </span><span class="n">pinMode</span><span class="p">(</span><span class="n">BUTTON_PIN</span><span class="p">,</span><span class="w"> </span><span class="n">INPUT_PULLUP</span><span class="p">);</span>
 <span class="p">}</span>
 
 <span class="kt">void</span><span class="w"> </span><span class="nf">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">digitalRead</span><span class="p">(</span><span class="n">BUTTON_PIN</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">LOW</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
-
-<span class="hll"><span class="w">    </span><span class="n">sendNEC</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mh">0x0</span><span class="p">,</span><span class="w"> </span><span class="mh">0xC</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span>
-</span>
-<span class="w">    </span><span class="n">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span><span class="w"> </span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">digitalRead</span><span class="p">(</span><span class="n">BUTTON_PIN</span><span class="p">)</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="n">LOW</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">sendNEC</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="w"> </span><span class="mh">0x0C</span><span class="p">,</span><span class="w"> </span><span class="mi">0</span><span class="p">);</span><span class="w">   </span><span class="c1">// ← modifica 0x0C per ogni giocatore</span>
+<span class="w">        </span><span class="n">delay</span><span class="p">(</span><span class="mi">500</span><span class="p">);</span><span class="w">          </span>
+<span class="w">    </span><span class="p">}</span>
 <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div></td></tr></table></div>
-<ol>
-<li><strong>Pin Fisico 6</strong>: Collegamento LED IR (Anodo).</li>
-<li><strong>Pin Fisico 7</strong>: Collegamento Pulsante (verso GND).
-<br></li>
-</ol>
-<div class="admonition danger">
-<p class="admonition-title">Step Finale</p>
-<p>Prima clicca su <strong>Strumenti &gt; Scrivi Bootloader</strong>, poi carica lo sketch tramite <strong>Sketch &gt; Carica tramite programmatore</strong>. <br>
-In caso di non funzionamento consultare la prossima scheda: <strong>Debugger (Ricevitore)</strong></p>
-</div>
+</code></pre></div>
+<p><div class="wb note">
+  <div class="wb-icon">📦</div>
+  <div class="wb-inner">
+    <div class="wb-title">Libreria richiesta</div>
+    <p>Installa <strong>IRremote</strong> (v4.x) o <strong>TinyIRSender</strong> dal Library Manager dell'IDE.</p>
+  </div>
+</div></p>
 </div>
 <div class="tabbed-block">
-<p>Usa questo codice per intercettare i segnali e verificare i telecomandi.</p>
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;IRremote.hpp&gt;</span>
-<span class="cp">#define IR_RECEIVE_PIN 11</span>
+<p><div class="sec-divider"><span class="sec-divider-label">Scopo</span></div></p>
+<p>Verifica i codici IR ricevuti durante lo sviluppo e il testing dei telecomandi.</p>
+<p><div class="wb tip">
+  <div class="wb-icon">💡</div>
+  <div class="wb-inner">
+    <div class="wb-title">Quando usarlo</div>
+    <p>Usa questo sketch su un <strong>Arduino UNO</strong> collegato al PC per leggere i codici di ogni telecomando prima di integrarli nel firmware principale.</p>
+  </div>
+</div></p>
+<p><div class="sec-divider"><span class="sec-divider-label">Pinout ricevitore IR</span></div></p>
+<p><div class="pinout-box"><span style="color:rgba(255,255,255,0.35)">Modulo IR (es. VS1838B / TSOP4838)</span>
+│
+├── <span style="color:#ff9f43">VCC</span>  → <span style="color:#ff9f43">5V</span>
+├── <span style="color:#888">GND</span>  → <span style="color:#888">GND</span>
+└── <span style="color:#00c8ff">OUT</span>  → <span style="color:#a78bfa">Pin 11</span> (Arduino)</div></p>
+<p><div class="sec-divider"><span class="sec-divider-label">Codice sorgente</span></div></p>
+<div class="highlight"><pre><span></span><code><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;IRremote.hpp&gt;</span>
+
+<span class="cp">#define IR_RECEIVE_PIN  11    </span><span class="c1">// Pin dati del modulo VS1838B / TSOP4838</span>
 
 <span class="kt">void</span><span class="w"> </span><span class="nf">setup</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
-<span class="n">IrReceiver</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="n">IR_RECEIVE_PIN</span><span class="p">,</span><span class="w"> </span><span class="n">ENABLE_LED_FEEDBACK</span><span class="p">);</span><span class="w"> </span>
+<span class="w">    </span><span class="n">Serial</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="mi">9600</span><span class="p">);</span>
+<span class="w">    </span><span class="n">IrReceiver</span><span class="p">.</span><span class="n">begin</span><span class="p">(</span><span class="n">IR_RECEIVE_PIN</span><span class="p">,</span><span class="w"> </span><span class="n">ENABLE_LED_FEEDBACK</span><span class="p">);</span>
+<span class="w">    </span><span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;=== DealerBot IR Debugger ===&quot;</span><span class="p">);</span>
+<span class="w">    </span><span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="s">&quot;In attesa di segnali IR...&quot;</span><span class="p">);</span>
 <span class="p">}</span>
 
 <span class="kt">void</span><span class="w"> </span><span class="nf">loop</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
-<span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">IrReceiver</span><span class="p">.</span><span class="n">decode</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
-<span class="w">    </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;Codice Ricevuto: &quot;</span><span class="p">);</span>
-<span class="w">    </span><span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="n">IrReceiver</span><span class="p">.</span><span class="n">decodedIRData</span><span class="p">.</span><span class="n">decodedRawData</span><span class="p">,</span><span class="w"> </span><span class="n">HEX</span><span class="p">);</span><span class="w"> </span>
-<span class="w">    </span><span class="n">IrReceiver</span><span class="p">.</span><span class="n">resume</span><span class="p">();</span>
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">IrReceiver</span><span class="p">.</span><span class="n">decode</span><span class="p">())</span><span class="w"> </span><span class="p">{</span>
+<span class="w">        </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;[ OK ]  Codice ricevuto: 0x&quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="n">IrReceiver</span><span class="p">.</span><span class="n">decodedIRData</span><span class="p">.</span><span class="n">decodedRawData</span><span class="p">,</span><span class="w"> </span><span class="n">HEX</span><span class="p">);</span>
+<span class="w">        </span><span class="n">Serial</span><span class="p">.</span><span class="n">print</span><span class="p">(</span><span class="s">&quot;  |  Protocollo: &quot;</span><span class="p">);</span>
+<span class="w">        </span><span class="n">Serial</span><span class="p">.</span><span class="n">println</span><span class="p">(</span><span class="n">IrReceiver</span><span class="p">.</span><span class="n">decodedIRData</span><span class="p">.</span><span class="n">protocol</span><span class="p">);</span>
+<span class="w">        </span><span class="n">IrReceiver</span><span class="p">.</span><span class="n">resume</span><span class="p">();</span>
+<span class="w">    </span><span class="p">}</span>
 <span class="p">}</span>
-<span class="p">}</span>
-</code></pre></div></td></tr></table></div>
+</code></pre></div>
+<p><div class="output-box">
+  <div class="out-header">Output atteso — Serial Monitor</div>
+  <div class="out-line">=== DealerBot IR Debugger ===</div>
+  <div class="out-line">In attesa di segnali IR...</div>
+  <div><span class="out-ok">[ OK ]</span>  Codice ricevuto: <span class="out-val">0xC</span>   |  Protocollo: <span class="out-val">NEC</span></div>
+  <div><span class="out-ok">[ OK ]</span>  Codice ricevuto: <span class="out-val">0x18</span>  |  Protocollo: <span class="out-val">NEC</span></div>
+</div></p>
 </div>
 </div>
 </div>
+<hr />
+<h2 id="tabella-assegnazione-codici">Tabella Assegnazione Codici</h2>
+<table class="assign-table">
+  <thead>
+    <tr>
+      <th>Giocatore</th>
+      <th>Codice HEX</th>
+      <th>Chiamata Funzione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="pname">Giocatore 1</td>
+      <td><code>F30CFF00</code></td>
+      <td><span class="hex-badge">sendNEC(1, 0x0, 0xC, 0);</span></td>
+    </tr>
+    <tr>
+      <td class="pname">Giocatore 2</td>
+      <td><code>E718FF00</code></td>
+      <td><span class="hex-badge">sendNEC(1, 0x0, 0x18, 0);</span></td>
+    </tr>
+    <tr>
+      <td class="pname">Giocatore 3</td>
+      <td><code>A15EFF00</code></td>
+      <td><span class="hex-badge">sendNEC(1, 0x0, 0x5E, 0);</span></td>
+    </tr>
+    <tr>
+      <td class="pname">Giocatore 4</td>
+      <td><code>F708FF00</code></td>
+      <td><span class="hex-badge">sendNEC(1, 0x0, 0x8, 0);</span></td>
+    </tr>
+    <tr>
+      <td class="pname">Giocatore 5</td>
+      <td><code>E31CFF00</code></td>
+      <td><span class="hex-badge">sendNEC(1, 0x0, 0x1C, 0);</span></td>
+    </tr>
+    <tr>
+      <td class="pname">Giocatore 6</td>
+      <td><code>A55AFF00</code></td>
+      <td><span class="hex-badge">sendNEC(1, 0x0, 0x5A, 0);</span></td>
+    </tr>
+    <tr>
+      <td class="pname">Giocatore 7</td>
+      <td><code>BD42FF00</code></td>
+      <td><span class="hex-badge">sendNEC(1, 0x0, 0x42, 0);</span></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
@@ -670,8 +1110,13 @@ In caso di non funzionamento consultare la prossima scheda: <strong>Debugger (Ri
 
 
 
+  
+  
 
 
+
+
+  
 
 
 

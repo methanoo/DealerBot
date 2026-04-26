@@ -577,7 +577,7 @@ hide:
 
     void loop() {
         if (digitalRead(BUTTON_PIN) == LOW) {
-            sendNEC(1, 0x0C, 0);   // ← modifica 0x0C per ogni giocatore
+            sendNEC(1, 0x0, 0x0C, 0);   // ← modifica 0x0C per ogni giocatore
             delay(500);          
         }
     }
