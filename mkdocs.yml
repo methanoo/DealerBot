@@ -1,0 +1,19 @@
+site_name: DealerBot - Documentazione Telecomandi
+site_description: Sistema di distribuzione carte via IR con ATtiny85
+
+theme:
+  name: material
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Telecomandi: telecomandi.md
